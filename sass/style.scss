@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+h1, h2 {
+    font-weight: 100;
+}
+
+h3, h4, h5 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+h3::before,
+h4::before,
+h5::before {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+h3::before {
+    content: "Capital:";
+}
+
+h4::before {
+    content: "Language: ";
+}
+
+h5::before {
+    content: "Currency: ";
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    font-weight: 100;
+}
+
+button {
+    font-family: 'Roboto';
+}
